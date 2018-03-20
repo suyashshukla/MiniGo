@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/name"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hello"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        tools:text="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:id="@+id/source"
+        android:layout_marginLeft="10dp"
+        tools:text="20sp"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+</LinearLayout>

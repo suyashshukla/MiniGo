@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="data">
+    <item>"Choose among these"</item>>
+    <item>"Customer"</item>>
+    <item>"Agency"</item>>
+</string-array>
+
+    <string-array name="from">
+
+    <item>"From"</item>
+    <item>"Gwalior"</item>
+    <item>"Chetakpuri"</item>
+    <item>"Sithauli"</item>
+    <item>"Jaurasi"</item>
+    <item>"TCP"</item>
+    <item>"Tekanpur"</item>
+
+</string-array>
+
+    <string-array name="to">
+
+        <item>"To"</item>
+        <item>"Tekanpur"</item>
+        <item>"TCP"</item>
+        <item>"Jaurasi"</item>
+        <item>"Sithauli"</item>
+        <item>"Chetakpuri"</item>
+        <item>"Gwalior</item>
+    </string-array>
+
+    <string-array name="agency">
+
+        <item>"Agency"</item>
+        <item>"Yadav Bus Service"</item>
+        <item>"Nikhil Pathak Travels"</item>
+        <item>"Mayank Jain Transport"</item>
+
+    </string-array>
+
+</resources>

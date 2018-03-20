@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suyash.minigo.Customer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Customer Booking System"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="monospace"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <Spinner
+        android:layout_margin="20dp"
+        android:id="@+id/from"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:layout_margin="20dp"
+        android:id="@+id/to"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:layout_margin="20dp"
+        android:id="@+id/agency"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/book"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Book"/>
+
+
+
+
+
+
+</LinearLayout>

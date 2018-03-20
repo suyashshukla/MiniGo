@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suyash.minigo.UserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bricks"
+        android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Suyash Shukla"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Email"/>
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:padding="10dp"
+            android:text="Hello"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"/>
+        <TextView
+            android:id="@+id/mobile"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:text="Hello"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"/>
+        <TextView
+            android:id="@+id/gender"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:fontFamily="serif-monospace"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"/>
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+
+            android:padding="10dp"
+            android:text="Gender"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>
